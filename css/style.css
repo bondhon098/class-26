@@ -1,0 +1,147 @@
+.header{
+    padding: 60px 0px;
+    background: #ffffff;
+}
+.header-text h3{
+    text-transform: capitalize;
+    color: #6ad1fe;
+}
+.header-text h1{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 20px;
+}
+.header-text h1::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #007acc;
+}
+.header-text p{
+    text-transform: capitalize;
+    color: #3f4041;
+}
+.header-img{
+    border: 1px solid rgb(226, 213, 213);
+    width: 100%;
+    margin: 10px 0px;
+    height: 100px;
+    line-height: 100px;
+    transition: .5s;
+}
+.header-img:hover {
+    background: red;
+}
+/* middle */
+.middle{
+    padding: 50px 0px ;
+    background: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+
+
+.middle-text h1::after{
+    left: 47%;
+}
+.middle-text p{
+    text-align: center;
+    margin: auto;
+    color: #3f4041;
+}
+.middle-iteam{
+    padding-top: 60px;
+    text-align: left;
+}
+.middle-img{
+    position: relative;
+}
+.middle-img-chobi{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    background:#0000ff;
+}
+.middle-img-chobi img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+.middle-iteam-text h1{
+    text-transform: capitalize;
+    color: #212529;
+    font-weight: 600;
+    font-size: 30px;
+}
+.middle-iteam-text p{
+    text-transform: capitalize;
+    color: #3f4041;
+    font-size: 15px;
+}
+/* footer */
+.footer{
+    background: #081828;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    border-bottom: 1px solid rgb(196, 188, 188);
+}
+.foter-iteam1{
+    width: 300px;
+    height: 250px;
+}
+.foter-iteam1 img{
+    width: 100px;
+}
+.foter-iteam1 p{
+    padding-top: 50px;
+    color: #ffffff;
+}
+.foter-iteam1 ul{
+    list-style: none;
+    padding-top: 30px;
+    margin-left: -20px;
+}
+.foter-iteam1 ul li a{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0px 10px;
+    transition: .5s;
+}
+.foter-iteam1 ul li a:hover{
+    color: red;
+}
+.foter p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+.foter-iteam{
+    height: 300px;
+    color: #ffffff;
+}
+.foter-iteam p{
+    border-left: 2px solid #0000ff;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.foter-iteam ul{
+    padding-left: 10px;
+    list-style: none;
+}
+.foter-iteam ul li{
+    padding: 8px 0px;
+}
